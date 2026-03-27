@@ -106,8 +106,8 @@ convocall
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/ayush-shivhare/convocall.git
-cd convocall
+git clone https://github.com/saurav-jorwal/Vertex-Connect.git
+cd Vertex-Connect
 ```
 
 ---
