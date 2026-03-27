@@ -10,7 +10,7 @@ The application supports authentication, meeting rooms, and live video/audio int
 ## Live Demo
 
 Frontend:
-https://convovideocallfrontend.onrender.com/
+https://vertex-connect-theta.vercel.app/
 
 ---
 
