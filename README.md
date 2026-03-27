@@ -179,8 +179,8 @@ MongoDB stores user information and meeting data, enabling persistent storage.
 
 ## Author
 
-**Ayush Shivhare**
-B.Tech CSE – VIT Vellore
+**Saurav Kumar Meena**
+B.Tech CSE – RTU Kota
 
 LinkedIn
 https://linkedin.com/in/saurav-kumar-meena-b633b83b5/
