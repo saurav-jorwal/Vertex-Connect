@@ -183,7 +183,7 @@ MongoDB stores user information and meeting data, enabling persistent storage.
 B.Tech CSE – VIT Vellore
 
 LinkedIn
-https://www.linkedin.com/in/ayush-shivhare-427578275
+https://linkedin.com/in/saurav-kumar-meena-b633b83b5/
 
 GitHub
-https://github.com/ayush-shivhare
+https://github.com/saurav-jorwal
