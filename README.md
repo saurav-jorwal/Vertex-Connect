@@ -9,7 +9,6 @@ The application supports authentication, meeting rooms, and live video/audio int
 
 ## Live Demo
 
-Frontend:
 https://vertex-connect-theta.vercel.app/
 
 ---
