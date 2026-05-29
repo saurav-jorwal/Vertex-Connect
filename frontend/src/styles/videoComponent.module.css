@@ -24,15 +24,13 @@
     font-size: 3rem;
 }
 
-.conferenceView { 
-
+.conferenceView {
     display: flex;
-    
     padding: 10px;
     gap: 10px;
 }
 
-.conferenceView  video {
+.conferenceView video {
     width: 40vw;
     height: 20vh;
     min-width: 30vw;
@@ -43,19 +41,71 @@
     position: absolute;
     height: 90vh;
     right: 0;
-    background: white;
-    border-radius: 10px;
-    width: 30vw;
-    padding-inline: 20px;
+    width: 28vw;
+    background: linear-gradient(180deg, #0b1e4b 0%, #1a3080 100%);
+    border-left: 1px solid rgba(255,255,255,0.12);
+    border-radius: 16px 0 0 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 .chatContainer {
-    position: relative;
+    display: flex;
+    flex-direction: column;
     height: 100%;
+    padding: 1.2rem;
 }
 
+.chatContainer h1 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+.chattingDisplay {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding-right: 4px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255,255,255,0.2) transparent;
+}
+
+.chattingDisplay p {
+    color: white;
+}
+
+.chattingDisplay > div {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 0.6rem 0.8rem;
+}
+
+.chattingDisplay > div p:first-child {
+    font-size: 0.75rem;
+    opacity: 0.6;
+    margin-bottom: 2px;
+}
+
+.chattingDisplay > div p:last-child {
+    font-size: 0.95rem;
+}
 
 .chattingArea {
-    position: absolute;
-    bottom: 0;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    margin-top: 0.8rem;
+}
+
+.chattingArea .MuiTextField-root {
+    flex: 1;
 }
